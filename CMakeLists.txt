@@ -28,6 +28,7 @@ target_link_libraries(2D-cg-app
     	sfml-graphics
     	sfml-system
         sfml-window
+        sfml-network
 )
 
 

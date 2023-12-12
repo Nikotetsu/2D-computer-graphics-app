@@ -1,9 +1,11 @@
-#include <iostream>
-#include <SFML\Graphics.hpp>
-using namespace sf;
-int main(){
-	std::cout<<"Hello, mine"<<std::endl;
-	//sf::RenderWindow window(sf::VideoMode(800,600), "My window");
-	RenderWindow window(VideoMode(1500,900), "New");
+#include "../headers/main.hpp"
+#include "../headers/application.hpp"
+
+int main(int argc, char *argv[]){
+	Application app;
+	app.init();
+	app.run();
+	app.end();
 	return 0;
+
 }
