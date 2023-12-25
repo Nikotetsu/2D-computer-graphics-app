@@ -1,5 +1,5 @@
-#include "../headers/main.hpp"
-#include "../headers/application.hpp"
+#include "../include/main.hpp"
+#include "../include/application.hpp"
 
 int main(int argc, char *argv[]){
 	Application app;

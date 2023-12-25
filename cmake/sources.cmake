@@ -7,5 +7,5 @@ set(exe_sources
 )
 
 set(headers
-    headers/
+    include/
 )
